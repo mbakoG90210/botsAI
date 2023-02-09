@@ -1,20 +1,20 @@
 import React from 'react';
-import { BroswerRouter, Route, Routes, Link } from 'react-router-dom';
-import { Home, CreatePost } from './pages';
-import { Header, Footer } from './components';
+import { BroswerRouter as Router, Route, Routes } from 'react-router-dom';
+import { Home, CreatePost } from './pages/index';
+import { Header, Footer } from './components/index';
 
 
-const App = () => {
+export const App = () => (
 
+    <Router>
+      <Header />
+      <main className="sm:p-8 px-4 py-8 w-full bg-[#f9fafe] min-h-[calc(100vh-73px)]">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/create-post" element={<CreatePost />} />
+        </Routes>
+      </main>
+      <Footer />
+    </Router>
+);
 
-  return (
-    <BroswerRouter>
-      
-      <Header className="w-full flex justify-between items-center sm:px-8 px-4 py-4 border-b border-b-primary-content">
-        
-      </Header>
-    </BroswerRouter>
-  )
-}
-
-export default App
