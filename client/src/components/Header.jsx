@@ -4,9 +4,9 @@ import { logopic } from "../assets/index";
 
 const Header = () => {
   return (
-    <header className="navbar bg-primary-50 opacity-25">
+    <header className="navbar bg-primary-500 ">
       <Link to="/">
-        <img src={logopic} alt="logo" className="w-30 object-contain" />
+        <img src={logopic} alt="logo" className="w-10 h-10 object-contain" />
       </Link>
       <Link
         to="/create-post"
