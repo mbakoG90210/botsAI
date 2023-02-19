@@ -1,10 +1,18 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 * {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif,'Labrada';
 }
+@font-face {
+    font-family: 'ArthemysDisplay-Light';
+    src: local('ArthemysDisplay-Light'), url(./assets/fonts/ArthemysDisplay-Light.otf) format('opentype');
+  }
 
 @media screen and (min-width: 480px) {
     .card:nth-child(7n + 1) {
