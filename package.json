@@ -12,6 +12,9 @@
     "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
     "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\""
   },
+  "engines": {
+    "node": "16.13.2"
+},
   "keywords": [],
   "author": "Mbako Goitsemang @Azath-EngSol",
   "license": "ISC",
