@@ -64,7 +64,7 @@ const Home = () => {
   return (
     <section className="max-w-7xl mx-auto">
       <div>
-        <h1 className="font-arthemys font-extrabold text-primary-content text-[32px]">Dreams Gallery</h1>
+        <h1 className="font-arthemys font-extrabold text-primary-content text-[32px]">Dreams Community Gallery</h1>
         <p className="mt-2 text-base-400 text-[14px] max-w-[500px]">Browse through a collection of imaginative dreams made real through DreamBots AI driven intelligence </p>
         
       </div>
